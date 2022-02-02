@@ -118,16 +118,10 @@ last_failed_time   |
 stats_reset        | 2022-02-01 20:47:54.590468+00
 ```
 
-### CDP
-Backup:
-```bash
-
-```
-
 ## Comparing All Of Them
 
-|  | Full | Incremental | Differential | Reverse Delta | CDP |
-|---|:---:|:---:|:---:|:---:|:---:|
-| Size | 91.4MB | 1.2MB | 88.2MB | 102.9MB |  |
-| Point in specific time recovery | - | + | + | + | + |
-| Speed of roll back | 38.76s | 5.23s | 30.86s | 31.54s |  |
+|  | Full | Incremental | Differential | Reverse Delta |
+|---|---|---|---|---|
+| Size | 91.4MB | 1.2MB | 88.2MB | 102.9MB |
+| Point in specific time recovery | - | + | + | + |
+| Speed of roll back | 38.76s | 5.23s | 30.86s | 31.54s |
